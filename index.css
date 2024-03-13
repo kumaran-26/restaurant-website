@@ -1,0 +1,194 @@
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+    background-color: rgba(0, 0, 0);
+}
+.nav{
+    background-color: rgba(0, 0, 0);
+}
+img{
+    height: 100px;
+    width: 150px;
+    border-radius: 200px;
+}
+.col5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.video1{
+    height: 100vh;
+    width: 100vw;
+    /* width: 300px; */
+    
+    /* margin-top: 30px; */
+    
+}
+
+    
+.home{
+    color: rgba(255, 0, 0, 0.833);
+    font-size: 25px;
+}
+.navbar{
+    position: sticky;
+    color: white;
+}
+.p1{
+    position: absolute;
+    color: white;
+    margin-left:  634px;
+    z-index: 2;
+    font-size: 34px;
+    font-family: "Cedarville Cursive", cursive;
+    text-shadow: 2px 2px 1px white;
+    
+}
+.row {
+    justify-content: space-between;
+    
+}
+.col1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.card{
+    background-color: black;
+    color:rgba(250, 235, 215, 0.692);
+    font-weight: 500;
+    border: 2px solid rgba(255, 255, 255, 0.41);
+    border-radius: 5px;
+    
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+.col3 .del{
+    height: 413px; 
+    width: 200px;
+}
+.del2 .p2{
+    
+    color: white; 
+    height:223px ;
+    width: 450px; 
+    font-size: 46px;
+    margin-top: 34px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 1px whitesmoke;
+}
+
+.contact1{
+    
+    height: 154px;
+    width: 345px;
+    border-radius: 23px;
+    background-color: rgba(163, 117, 117, 0.911);
+    
+    
+}
+.contact2{
+
+    height: 154px;
+    width: 345px;
+    border-radius: 23px;
+    background-color: rgba(57, 177, 27, 0.971);
+    margin-left: 20px;
+    
+}
+
+
+
+.contact1 h5{
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.contact2 h5{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.contact1 address{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+ i{
+    color: white;
+    font-size: 25px;
+
+}
+
+.con .ph{
+    margin-left: 15px;
+
+}
+.con .wh{
+    margin-left: 20px;
+}
+.so .yo{
+    margin-left: 20px;
+}
+.so .in, .fa, .tw{
+    margin-left: 20px;
+}
+
+.col4{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.con .c1{
+    margin-left: 10px;
+}
+.del{
+    height: 273px;
+    width: 278px;
+}
+ .del{
+    animation-name: deli;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    
+}
+@keyframes deli{
+    0%{
+
+        transform: translateX(-45px);
+    }
+    25%{
+        transform: translateX(45px);
+        
+    }
+    50%{
+        transform: translateX(45px);
+        
+    }
+    100%{
+        transform: translateX(45px);
+        
+    }
+}
+.p2{
+    color: white;
+    font-size: 45px;
+}
+#fooot{
+    font-size: 34px;
+    color: white;
+}
